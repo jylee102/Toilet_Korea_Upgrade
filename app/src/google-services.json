@@ -1,0 +1,100 @@
+{
+  "project_info": {
+    "project_number": "218076273081",
+    "project_id": "toilet-korea",
+    "storage_bucket": "toilet-korea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218076273081:android:1179ebe1f78b5588d6fe68",
+        "android_client_info": {
+          "package_name": "com.example.toilet_korea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218076273081-1gqtnlm66u7v2bpd8in04t0ii7kcdemd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.toilet_korea",
+            "certificate_hash": "4d36efd45d48106a02d900aa5db9d2c529173246"
+          }
+        },
+        {
+          "client_id": "218076273081-g2pgms1srqdn6mitmkqnbjhb0ko0rckv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.toilet_korea",
+            "certificate_hash": "5f5a32d212acd258b4bcbe59bf83f7f0952edecb"
+          }
+        },
+        {
+          "client_id": "218076273081-kpe0p9tm7rq8l051kk8cu07tgt3vd37v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.toilet_korea",
+            "certificate_hash": "5318ca033f2d7264b1e17c681f9d05de7688a4be"
+          }
+        },
+        {
+          "client_id": "218076273081-o4j86v3u1ru4o8aj63hg9t824rbjdq5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.toilet_korea",
+            "certificate_hash": "d817ff251dff41bd3efacb9616520fad12a08016"
+          }
+        },
+        {
+          "client_id": "218076273081-lffjhaann89k53adlggckgiog2u8g9jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJxQ_e9laHYB45tVQ3FdSa7DHUNYCSPfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218076273081-lffjhaann89k53adlggckgiog2u8g9jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218076273081:android:d661a7230e552372d6fe68",
+        "android_client_info": {
+          "package_name": "com.example.toilet_seoul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218076273081-lffjhaann89k53adlggckgiog2u8g9jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJxQ_e9laHYB45tVQ3FdSa7DHUNYCSPfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218076273081-lffjhaann89k53adlggckgiog2u8g9jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

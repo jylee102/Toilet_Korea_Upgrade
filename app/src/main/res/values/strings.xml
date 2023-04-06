@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">주변 화장실 찾기</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "\n\n화장실 상세 정보\n\n"
+        ""toiletType":"개방화장실","toiletNm":"유니온빌딩","rdnmadr":"경기도 과천시 별양상가3로 5(별양동)","lnmadr":"경기도 과천시 별양동 1-20" \n\n"
+        ""unisexToiletYn":"N","menToiletBowlNumber":"4","menUrineNumber":"7","menHandicapToiletBowlNumber":"1" \n\n"
+        ""menHandicapUrinalNumber":"0","menChildrenToiletBowlNumber":"0","menChildrenUrinalNumber":"0" \n\n"
+        ""ladiesToiletBowlNumber":"5","ladiesHandicapToiletBowlNumber":"0","ladiesChildrenToiletBowlNumber":"0" \n\n"
+        ""institutionNm":"유니온빌딩","phoneNumber":"02-507-3970","openTime":"00:00~24:00","installationYear":"" \n\n"
+        ""latitude":"37.4266526","longitude":"126.9911379","toiletPossType":"null","toiletPosiType":"null" \n\n"
+        ""careSewerageType":"null","emgBellYn":"null" \n"
+        ""enterentCctvYn":"null","dipersExchgPosi":"null","modYear":"null" \n\n"
+        ""referenceDate":"2020-03-03","insttCode":"3970000""
+    </string>
+    <string name="action_settings">Settings</string>
+
+    <string name="fb_login_protocol_scheme">fb873009302900995</string>
+
+    <!-- Sign In -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin_email">Signup or Signin by email</string>
+    <string name="signin_google">Google login</string>
+    <string name="signup_complete">Membership success</string>
+    <string name="signin_complete">Login success</string>
+    <string name="signout">Signout</string>
+    <string name="signout_success">Signout success</string>
+    <string name="signout_fail">Signout fail</string>
+    <string name="signout_fail_null">Please enter your email and password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

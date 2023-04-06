@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--
+                Add menu items here
+                Menu items with icon and Title
+        -->
+        <item
+            android:id="@+id/go_to_main"
+            android:icon="@drawable/home"
+            android:title="지도 화면으로"/>
+        <item
+            android:id="@+id/first"
+            android:icon="@drawable/ic_personal"
+            android:title="개인 정보 수정" />
+        <item
+            android:id="@+id/second"
+            android:icon="@drawable/ic_phone"
+            android:title="비상 연락망 수정" />
+        <item
+            android:id="@+id/third"
+            android:icon="@drawable/ic_hopper"
+            android:title="상세 검색" />
+    </group>
+</menu>

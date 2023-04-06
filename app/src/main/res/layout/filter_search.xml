@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <!--TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="First Fragment"
+        android:textSize="25sp" !-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="312dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/spacing_large"
+                        android:gravity="center_vertical"
+                        android:minHeight="50dp"
+                        android:paddingStart="@dimen/spacing_small"
+                        android:paddingEnd="@dimen/spacing_small"
+                        android:text="거리 설정"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/distance200"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="200m 이내" />
+
+                        <RadioButton
+                            android:id="@+id/distance500"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="500m 이내" />
+
+                        <RadioButton
+                            android:id="@+id/distance1000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="1000m 이내"
+                            android:checked="true"/>
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="@dimen/spacing_large"
+                        android:layout_marginVertical="@dimen/spacing_large"
+                        android:background="@color/grey_10" />
+
+                    <TextView
+                        android:layout_width="312dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/spacing_large"
+                        android:gravity="center_vertical"
+                        android:minHeight="50dp"
+                        android:paddingStart="@dimen/spacing_small"
+                        android:paddingEnd="@dimen/spacing_small"
+                        android:text="옵션 설정"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+                    <CheckBox
+                        android:id="@+id/notUnisex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="남/여 분리" />
+
+                    <CheckBox
+                        android:id="@+id/menDisabled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="장애인 화장실(남성)" />
+
+                    <CheckBox
+                        android:id="@+id/womenDisabled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="장애인 화장실(여성)" />
+
+                    <CheckBox
+                        android:id="@+id/menWithChildren"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="영유아 동반 화장실(남성)" />
+
+                    <CheckBox
+                        android:id="@+id/womenWithChildren"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="영유아 동반 화장실(여성)" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="180dp"
+                android:backgroundTint="@color/colorAccent"
+                android:text="초기화" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/colorAccent"
+                android:text="검색" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
